@@ -1,0 +1,59 @@
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.navbar {
+    @extend %negrita;  
+}
+
+#carouselFilmografia{
+    max-width: 400px;
+}
+
+.video-container iframe {
+  @include sizes(100%, 100%);
+}
+
+h1 {
+  font-weight: 700;
+}
+
+h5 {
+    @extend %negrita;
+}
+
+//anidación
+
+#bio {
+  background-image: url("../assets/img/blood.svg");
+  background-repeat: no-repeat;
+  section {
+    mix-blend-mode: multiply;
+
+    div {
+      max-width: 936px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      color: $primary;
+    }
+
+    p {
+   
+      @extend %negrita;
+      margin-bottom: $spacer/2;
+    }
+  }
+}
+
+
+
+
+.modal-body iframe{
+    width: 560px;
+    height: 315px;
+}

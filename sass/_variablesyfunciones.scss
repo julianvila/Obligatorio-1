@@ -1,0 +1,18 @@
+$primary: darkred;
+$navbar-light-color: black;
+$navbar-light-active-color: $primary;
+
+$font-family-sans-serif: 'Montserrat', sans-serif;
+
+
+
+@mixin sizes ($width, $heigth) {
+    width: $width;
+    height: $heigth;
+}
+
+
+
+%negrita{
+    font-weight: 500;
+}
