@@ -6,9 +6,9 @@ $font-family-sans-serif: 'Montserrat', sans-serif;
 
 
 
-@mixin sizes ($width, $heigth) {
-    width: $width;
-    height: $heigth;
+@mixin sizes($w) {
+    width: $w;
+    height: $w*0.5625;
 }
 
 

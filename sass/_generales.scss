@@ -13,16 +13,16 @@ a {
     max-width: 400px;
 }
 
-.video-container iframe {
-  @include sizes(100%, 100%);
-}
-
 h1 {
   font-weight: 700;
 }
 
 h5 {
     @extend %negrita;
+}
+
+.modal-body iframe{
+  @include sizes($spacer*35); //560px
 }
 
 //anidación
@@ -43,17 +43,8 @@ h5 {
     }
 
     p {
-   
       @extend %negrita;
       margin-bottom: $spacer/2;
     }
   }
-}
-
-
-
-
-.modal-body iframe{
-    width: 560px;
-    height: 315px;
 }
