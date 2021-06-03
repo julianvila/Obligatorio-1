@@ -2,17 +2,17 @@ $primary: darkred;
 $navbar-light-color: black;
 $navbar-light-active-color: $primary;
 
-$font-family-sans-serif: 'Montserrat', sans-serif;
-
-
+$font-family-sans-serif: "Montserrat", sans-serif;
 
 @mixin sizes($w) {
-    width: $w;
-    height: $w*0.5625;
+  width: $w;
+  height: $w * 0.5625;
 }
 
+%negrita {
+  font-weight: 500;
+}
 
-
-%negrita{
-    font-weight: 500;
+%sombrita {
+  box-shadow: 0 0 1.5rem  rgba(0, 0, 0, 0.3);
 }

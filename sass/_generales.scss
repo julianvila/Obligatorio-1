@@ -6,11 +6,11 @@ a {
 }
 
 .navbar {
-    @extend %negrita;  
+  @extend %negrita;
 }
 
-#carouselFilmografia{
-    max-width: 400px;
+#carouselFilmografia {
+  max-width: 400px;
 }
 
 h1 {
@@ -18,11 +18,7 @@ h1 {
 }
 
 h5 {
-    @extend %negrita;
-}
-
-.modal-body iframe{
-  @include sizes($spacer*35); //560px
+  @extend %negrita;
 }
 
 //anidación
@@ -47,4 +43,12 @@ h5 {
       margin-bottom: $spacer/2;
     }
   }
+}
+
+.card {
+  @extend %sombrita;
+}
+
+#carouselFilmografia > div {
+  @extend %sombrita;
 }

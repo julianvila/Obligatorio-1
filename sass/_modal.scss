@@ -1,3 +1,7 @@
 .modal-dialog{
     max-width: max-content;
 }
+
+.modal-body iframe{
+    @include sizes($spacer*35); //560px
+  }
