@@ -4,10 +4,15 @@ $navbar-light-active-color: $primary;
 
 $font-family-sans-serif: "Montserrat", sans-serif;
 
+//mixin
+
 @mixin sizes($w) {
   width: $w;
-  height: $w * 0.5625;
+  height: $w * 0.5625; //16:9
 }
+
+
+//extend
 
 %negrita {
   font-weight: 500;

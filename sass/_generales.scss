@@ -9,16 +9,16 @@ a {
   @extend %negrita;
 }
 
-#carouselFilmografia {
-  max-width: 400px;
-}
-
 h1 {
   font-weight: 700;
 }
 
 h5 {
   @extend %negrita;
+}
+
+.card {
+  @extend %sombrita;
 }
 
 //anidación
@@ -45,10 +45,9 @@ h5 {
   }
 }
 
-.card {
-  @extend %sombrita;
-}
-
-#carouselFilmografia > div {
-  @extend %sombrita;
+#carouselFilmografia {
+  max-width: 400px;
+  > div {
+    @extend %sombrita;
+  }
 }
