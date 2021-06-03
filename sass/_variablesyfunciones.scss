@@ -11,6 +11,14 @@ $font-family-sans-serif: "Montserrat", sans-serif;
   height: $w * 0.5625; //16:9
 }
 
+@mixin videoResponsive($width) {
+  @media (min-width: $width) {
+    .modal-body iframe {
+      @include sizes(($width)-54px);
+    }
+  }
+}
+
 
 //extend
 

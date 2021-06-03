@@ -1,7 +1,12 @@
-.modal-dialog{
-    max-width: max-content;
+.modal-dialog {
+  max-width: max-content;
 }
 
-.modal-body iframe{
-    @include sizes($spacer*35); //560px
-  }
+.modal-body iframe {
+  @include sizes(270px);
+}
+
+@include videoResponsive(375px);
+@include videoResponsive(425px);
+@include videoResponsive(576px);
+@include videoResponsive(768px);
